@@ -37,7 +37,7 @@ const Home = () => {
         <motion.div variants={itemVariants} className="mb-8 flex justify-center">
             <div className="relative w-32 h-32 md:w-40 md:h-40 rounded-2xl overflow-hidden ring-4 ring-white dark:ring-gray-800 shadow-2xl rotate-3 hover:rotate-0 transition-all duration-500">
                 <img 
-                    src="/images/profile-home.png" 
+                    src={`${import.meta.env.BASE_URL}images/profile-home.png`}
                     alt="Profile" 
                     className="w-full h-full object-cover"
                 />

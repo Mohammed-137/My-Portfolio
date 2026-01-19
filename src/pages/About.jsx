@@ -23,7 +23,7 @@ const About = () => {
             <div className="relative w-64 h-80 md:w-full md:h-[500px] rounded-2xl overflow-hidden shadow-2xl">
                 <div className="absolute inset-0 bg-primary/10 mix-blend-overlay z-10"></div>
                 <img 
-                    src="/images/profile-about.jpg" 
+                    src={`${import.meta.env.BASE_URL}images/profile-about.jpg`}
                     alt="About Me" 
                     className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700"
                 />
