@@ -5,7 +5,7 @@ import ContactForm from '../components/ContactForm';
 import userData from '../data/userData.json';
  
 const Contact = () => {
-  return (
+  return ( 
     <div className="max-w-7xl mx-auto px-4 py-12">
        <motion.div 
         initial={{ opacity: 0, y: 20 }}
