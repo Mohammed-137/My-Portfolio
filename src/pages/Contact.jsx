@@ -3,9 +3,9 @@ import { motion } from 'framer-motion';
 import { FaEnvelope, FaMapMarkerAlt, FaGithub, FaLinkedin, FaWhatsapp } from 'react-icons/fa';
 import ContactForm from '../components/ContactForm';
 import userData from '../data/userData.json';
-
+ 
 const Contact = () => {
-  return (
+  return ( 
     <div className="max-w-7xl mx-auto px-4 py-12">
        <motion.div 
         initial={{ opacity: 0, y: 20 }}
@@ -43,7 +43,7 @@ const Contact = () => {
                         </div>
                         <div>
                             <p className="font-medium">Location</p>
-                            <p className="text-gray-600 dark:text-gray-400">Kaniyur,Tiruppur District, Tamil Nadu, India</p>
+                            <p className="text-gray-600 dark:text-gray-400">Kaniyur, Tiruppur District, Tamil Nadu, India</p>
                         </div>
                     </div>
                 </div>
