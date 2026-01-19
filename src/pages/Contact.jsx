@@ -43,7 +43,7 @@ const Contact = () => {
                         </div>
                         <div>
                             <p className="font-medium">Location</p>
-                            <p className="text-gray-600 dark:text-gray-400">Available Remote & Relocation</p>
+                            <p className="text-gray-600 dark:text-gray-400">Kaniyur, Tiruppur District,TamilNadu, India</p>
                         </div>
                     </div>
                 </div>
