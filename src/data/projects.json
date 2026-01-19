@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "title": "Movie Rating App",
+    "category": "Full Stack",
+    "description": "A comprehensive movie rating and review platform where users can browse movies, rate them, and share reviews. Features user authentication and safe database storage.",
+    "tech": ["React", "Tailwind CSS", "Vite","Express","MongoDB","Node.js","Render","JWT","REST API"],
+    "liveLink": "https://movie-rating-client-u1gh.onrender.com/",
+    "githubLink": "https://github.com/Mohammed-137",
+    "image": "https://images.unsplash.com/photo-1536440136628-849c177e76a1?auto=format&fit=crop&q=80&w=1000"
+  },
+  {
+    "id": 2,
+    "title": "Ganesh Hospital",
+    "category": "Healthcare / Management",
+    "description": "A modern hospital management frontend designed for patients and administrators. Includes appointment booking interfaces and service showcases.",
+    "tech": ["React", "Tailwind CSS", "Vite","Express","MongoDB","Node.js","Render"],
+    "liveLink": "https://ganesh-hospital-frontend.onrender.com/",
+    "githubLink": "https://github.com/Mohammed-137",
+    "image": "https://images.unsplash.com/photo-1538108149393-fbbd81895907?auto=format&fit=crop&q=80&w=1000"
+  },
+  {
+    "id": 3,
+    "title": "Playshop",
+    "category": "Game Dev / Web",
+    "description": "Fighting games, a genre known for intense one-on-one or team-based combat. Explore a rich history of obscure mechanics and influential figures.",
+    "tech": ["HTML", "CSS", "JavaScript"],
+    "liveLink": "https://mohammed-137.github.io/port/",
+    "githubLink": "https://github.com/Mohammed-137/port",
+    "image": "https://images.unsplash.com/photo-1552820728-8b83bb6b773f?auto=format&fit=crop&q=80&w=1000"
+  },
+  {
+    "id": 4,
+    "title": "General Knowledge Quiz",
+    "category": "Educational",
+    "description": "A fantastic way to learn and expand one's understanding of the world. Offers a fun and engaging way to absorb information across various subjects.",
+    "tech": ["HTML", "CSS", "JavaScript"],
+    "liveLink": "https://mohammed-137.github.io/new-module1/",
+    "githubLink": "https://github.com/Mohammed-137/new-module1",
+    "image": "https://images.unsplash.com/photo-1606326608606-aa0b62935f2b?auto=format&fit=crop&q=80&w=1000"
+  },
+  {
+    "id": 5,
+    "title": "Employee Management System",
+    "category": "Web Experiment",
+    "description": "A collection of web experiments and mini-applications showcasing various frontend development techniques and interactive elements.",
+    "tech": ["HTML", "CSS", "JavaScript","React+Vite","Tailwind CSS"],
+    "liveLink": "https://mohammed-137.github.io/Mini-Project/",
+    "githubLink": "https://github.com/Mohammed-137/Mini-Project",
+    "image": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&q=80&w=1000"
+  }
+]

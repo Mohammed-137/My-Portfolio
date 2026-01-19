@@ -1,0 +1,15 @@
+{
+  "name": "A. Mohammed Yasar",
+  "role": "Full Stack / MERN Developer",
+  "tagline": "Turning ideas into powerful digital experiences.",
+  "bio": "I'm A. Mohammed Yasar — a B.Com graduate with a growing passion for web development and design. While my academic background is in commerce, my curiosity for technology pushed me to dive deep into the world of coding and digital creation. I specialize in building full-stack applications using React, Node.js, Express, and MongoDB.",
+  "social": {
+    "github": "https://github.com/Mohammed-137",
+    "linkedin": "https://www.linkedin.com/in/amohammed-yasar/", 
+    "email": "mohammedyasar353@gmail.com",
+    "whatsapp": "https://wa.link/f2zmeg"
+  },
+  "skills": [
+    "React.js", "Node.js", "Express", "MongoDB", "JavaScript (ES6+)", "Tailwind CSS", "Bootstrap", "Git & GitHub","Python","HTML","CSS"
+  ]
+}
