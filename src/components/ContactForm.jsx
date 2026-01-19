@@ -15,16 +15,22 @@ const ContactForm = () => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
-  const handleSubmit = async (e) => {
+  const handleSubmit = (e) => {
     e.preventDefault();
     setIsSubmitting(true);
-    // Simulate API call
-    setTimeout(() => {
-      setIsSubmitting(false);
-      setIsSubmitted(true);
-      setFormData({ name: '', email: '', message: '' });
-      setTimeout(() => setIsSubmitted(false), 3000);
-    }, 1500);
+    
+    // Format the message for WhatsApp
+    const whatsappNumber = "919025170362"; // Replace with your WhatsApp number
+    const text = `Name: ${formData.name}%0AEmail: ${formData.email}%0AMessage: ${formData.message}`;
+    const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${text}`; // simple text encoding
+
+    // Open WhatsApp in a new tab
+    window.open(whatsappUrl, '_blank');
+
+    setIsSubmitting(false);
+    setIsSubmitted(true);
+    setFormData({ name: '', email: '', message: '' });
+    setTimeout(() => setIsSubmitted(false), 3000);
   };
 
   return (
