@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import { FaEnvelope, FaMapMarkerAlt, FaGithub, FaLinkedin, FaWhatsapp } from 'react-icons/fa';
 import ContactForm from '../components/ContactForm';
 import userData from '../data/userData.json';
-
+ 
 const Contact = () => {
   return (
     <div className="max-w-7xl mx-auto px-4 py-12">
